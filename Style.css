@@ -1,0 +1,390 @@
+/* Base styles */
+.headerbox {
+  position: relative;
+  width: 100%; /* Adjusted width for responsiveness */
+  max-width: 1440px; /* Added max-width to maintain layout on larger screens */
+  height: 123px;
+}
+
+.headerbox .global-nav {
+  position: fixed;
+  width: 100%; /* Adjusted width for responsiveness */
+  max-width: 1440px; /* Added max-width to maintain layout on larger screens */
+  height: 123px;
+  top: 0;
+  left: 0;
+  background-color: #9b3009;
+}
+
+.headerbox {
+  position: relative;
+  width: 100%; /* Adjusted width for responsiveness */
+  max-width: 1440px; /* Added max-width to maintain layout on larger screens */
+  height: 123px;
+}
+
+.headerbox .global-nav {
+  position: fixed;
+  width: 100%; /* Adjusted width for responsiveness */
+  max-width: 1440px; /* Added max-width to maintain layout on larger screens */
+  height: 123px;
+  top: 0;
+  left: 0;
+  background-color: #9b3009;
+}
+
+.headerbox .burger-nav-outline {
+  position: absolute;
+  width: 3%; /* Adjusted width for responsiveness */
+  height: auto;
+  top: 30px;
+  left: 3%;
+}
+
+.headerbox .cart-icon {
+  position: absolute;
+  width: 2%; /* Adjusted width for responsiveness */
+  height: auto;
+  top: 38px;
+  right: 3%;
+}
+
+.headerbox .logo {
+  position: absolute;
+  width: 5%; /* Adjusted width for responsiveness */
+  height: auto;
+  top: 16px;
+  left: 2%;
+}
+
+.headerbox .search-bar {
+  position: absolute;
+  width: 77%; /* Adjusted width for responsiveness */
+  max-width: 100%;
+  height: 55px;
+  top: 30px;
+  left: 15%; /* Adjusted left position for responsiveness */
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #bdbdbd;
+}
+
+.headerbox .search-outline {
+  position: absolute;
+  width: 2.5%; /* Adjusted width for responsiveness */
+  height: auto;
+  top: 12px;
+  left: 2%;
+}
+
+.headerbox .filter-outline {
+  position: absolute;
+  width: 2.5%; /* Adjusted width for responsiveness */
+  height: auto;
+  top: 12px;
+  right: 2%;
+}
+
+.headerbox .camera {
+  position: absolute;
+  width: 2%; /* Adjusted width for responsiveness */
+  height: auto;
+  top: 17px;
+  right: 4%;
+}
+.button-sample {
+  position: relative;
+  line-height: 22.4px;
+}
+.secondary-color {
+  position: absolute;
+  top: 457px;
+  left: 1174px;
+  border-radius: 8px;
+  background-color: #9b3009;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 25px;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Aleo;
+}
+.mothers-day-icon {
+  position: absolute;
+  top: 161px;
+  left: 53px;
+  border-radius: 25px;
+  width: 1334px;
+  height: 279px;
+  object-fit: cover;
+}
+.footer {
+  position: absolute;
+  height: 10.18%;
+  width: 100%;
+  top: 89.82%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  background-color: #9b3009;
+}
+.secondary-color1 {
+  position: absolute;
+  top: 1957px;
+  left: 1213px;
+  border-radius: 8px;
+  background-color: #fd9d9c;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 25px;
+  text-align: left;
+  font-size: 16px;
+  font-family: Aleo;
+}
+.mask-group-icon {
+  position: absolute;
+  height: 3.82%;
+  width: 5.42%;
+  top: 90.85%;
+  right: 6.32%;
+  bottom: 5.34%;
+  left: 88.26%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.made-and-delivered {
+  margin-block-start: 0;
+  margin-block-end: 22.4px;
+  font-size: 30px;
+}
+.crafted-by-hand {
+  margin-block-start: 0;
+  margin-block-end: 22.4px;
+}
+.delivered-at-demand {
+  margin: 0;
+}
+.made-and-delivered-container {
+  position: absolute;
+  top: 1864px;
+  left: 30px;
+  line-height: 22.4px;
+  display: inline-block;
+  font-family: Aleo;
+  color: #fff;
+  width: 305px;
+  height: 75px;
+  font-size: 20px;
+}
+.shop-by-categories {
+  position: absolute;
+  top: 559px;
+  left: 67px;
+  font-size: 65px;
+  line-height: 26.4px;
+  text-align: left;
+  display: inline-block;
+  width: 551px;
+  height: 30px;
+}
+.hd-icon {
+  position: absolute;
+  top: 641px;
+  left: 36px;
+  border-radius: 24px;
+  width: 469px;
+  height: 407px;
+  object-fit: cover;
+}
+.hd {
+  position: absolute;
+  top: 885px;
+  left: 36px;
+  background-color: rgba(253, 157, 156, 0.85);
+  width: 469px;
+  height: 60px;
+}
+.home-decor {
+  position: absolute;
+  top: 900px;
+  left: 143px;
+  line-height: 30px;
+}
+.j-icon {
+  position: absolute;
+  top: 658px;
+  left: 1064px;
+  border-radius: 24px;
+  width: 340px;
+  height: 519px;
+  object-fit: cover;
+}
+.j {
+  position: absolute;
+  top: 734px;
+  left: 1064px;
+  background-color: rgba(253, 157, 156, 0.85);
+  width: 340px;
+  height: 60px;
+}
+.jewelry {
+  position: absolute;
+  top: 749px;
+  left: 1156px;
+  line-height: 30px;
+}
+.ap-icon {
+  position: absolute;
+  top: 707px;
+  left: 532px;
+  border-radius: 24px;
+  width: 505px;
+  height: 519px;
+  object-fit: cover;
+}
+.ap {
+  position: absolute;
+  top: 1099px;
+  left: 532px;
+  background-color: rgba(253, 157, 156, 0.85);
+  width: 505px;
+  height: 60px;
+}
+.art-prints {
+  position: absolute;
+  top: 1114px;
+  left: 681px;
+  line-height: 30px;
+}
+.tg-icon {
+  position: absolute;
+  top: 1252px;
+  left: 532px;
+  border-radius: 24px;
+  width: 505px;
+  height: 519px;
+  object-fit: cover;
+}
+.tg {
+  position: absolute;
+  top: 1644px;
+  left: 532px;
+  background-color: rgba(253, 157, 156, 0.85);
+  width: 505px;
+  height: 60px;
+}
+.toys-games {
+  position: absolute;
+  top: 1659px;
+  left: 638px;
+  line-height: 30px;
+}
+.bs-icon {
+  position: absolute;
+  top: 1207px;
+  left: 1064px;
+  border-radius: 24px;
+  width: 339px;
+  height: 519px;
+  object-fit: cover;
+}
+.bs {
+  position: absolute;
+  top: 1599px;
+  left: 1064px;
+  background-color: rgba(253, 157, 156, 0.85);
+  width: 340px;
+  height: 60px;
+}
+.best-sellers {
+  position: absolute;
+  top: 1614px;
+  left: 1110px;
+  line-height: 30px;
+}
+.bp-icon {
+  position: absolute;
+  top: 1080px;
+  left: 36px;
+  border-radius: 24px;
+  width: 469px;
+  height: 519px;
+  object-fit: cover;
+}
+.bp {
+  position: absolute;
+  top: 1487px;
+  left: 36px;
+  background-color: rgba(253, 157, 156, 0.85);
+  width: 469px;
+  height: 60px;
+}
+.bags-purses {
+  position: absolute;
+  top: 1497px;
+  left: 124px;
+  line-height: 30px;
+}
+.desktop-home {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 2043px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 50px;
+  color: #000;
+  font-family: Coolvetica;
+}
+/* Styles for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  .headerbox .global-nav,
+  .headerbox .search-bar {
+    width: 100%;
+    max-width: none; /* Removed max-width to allow full width on smaller screens */
+  }
+  .headerbox .search-bar {
+    width: 60%; /* Adjusted width for responsiveness */
+    left: 20%; /* Adjusted left position for responsiveness */
+  }
+}
+
+/* Styles for screens smaller than 480px (mobile) */
+@media screen and (max-width: 480px) {
+  .headerbox .burger-nav-outline,
+  .headerbox .cart-icon,
+  .headerbox .logo,
+  .headerbox .search-outline,
+  .headerbox .filter-outline,
+  .headerbox .camera {
+    width: 8%; /* Adjusted width for responsiveness */
+  }
+
+  .headerbox .burger-nav-outline {
+    left: 4%;
+  }
+
+  .headerbox .cart-icon {
+    right: 4%;
+  }
+
+  .headerbox .logo {
+    left: 2%;
+  }
+
+  .headerbox .search-bar {
+    width: 80%; /* Adjusted width for responsiveness */
+    left: 10%; /* Adjusted left position for responsiveness */
+  }
+}
